@@ -56,27 +56,27 @@ If you want to run this project locally, follow these steps:
     cd backend
     npm install
 
-Create .env in backend/
-    PORT=5000
-    DB_HOST=localhost
-    DB_USER=your_mysql_username
-    DB_PASSWORD=your_mysql_password
-    DB_NAME=your_database_name
-    JWT_SECRET=your_very_secure_secret_key
-
-Start Backend Server
-    nodemon server.js
-    # or
-    node server.js
-
-3. Frontend Setup
-    cd ../frontend
-    npm install
-    npm start
-
-4. MySQL Setup
-  Make sure you have MySQL running and a database created with the name you set in .env.
-  Example: CREATE DATABASE your_database_name;
+    Create .env in backend/
+        PORT=5000
+        DB_HOST=localhost
+        DB_USER=your_mysql_username
+        DB_PASSWORD=your_mysql_password
+        DB_NAME=your_database_name
+        JWT_SECRET=your_very_secure_secret_key
+    
+    Start Backend Server
+        nodemon server.js
+        # or
+        node server.js
+    
+    3. Frontend Setup
+        cd ../frontend
+        npm install
+        npm start
+    
+    4. MySQL Setup
+      Make sure you have MySQL running and a database created with the name you set in .env.
+      Example: CREATE DATABASE your_database_name;
 
  User Roles
 Role	        ID	Description
